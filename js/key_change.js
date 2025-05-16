@@ -70,10 +70,10 @@
       g_rootObj.arrowMotion_data = '0,20,arrow9t,arrow9t-rev\n0,21,arrow9t,arrow9t-rev\n0,22,arrow9t,arrow9t-rev\n0,23,arrow9t,arrow9t-rev\n0,24,arrow9t,arrow9t-rev'
 
       // フリーズ除去
-      originalKeyLabels.forEach(freezeToArrow)
+      g_keyObj.chara9t_0.forEach(freezeToArrow)
 
       // 開始時に再読み込みがかかるので再度フリーズ除去
-      g_customJsObj.preloading.push(() => originalKeyLabels.forEach(freezeToArrow))
+      g_customJsObj.preloading.push(() => g_keyObj.chara9t_0.forEach(freezeToArrow))
     }
 
     // 17key→パンパネ
@@ -102,10 +102,10 @@
       })
 
       // フリーズ除去
-      originalKeyLabels.forEach(freezeToArrow)
+      g_keyObj.chara18p_0.forEach(freezeToArrow)
 
       // 開始時に再読み込みがかかるので再度フリーズ除去
-      g_customJsObj.preloading.push(() => originalKeyLabels.forEach(freezeToArrow))
+      g_customJsObj.preloading.push(() => g_keyObj.chara18p_0.forEach(freezeToArrow))
     }
 
     // キリズマ
