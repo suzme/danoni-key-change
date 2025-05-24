@@ -1,5 +1,5 @@
 g_presetObj.keysData = `
-|keyExtraList=1,5g,6,6s,7p,8i,9j,9A,9B,9d,9g,9t,9v,10,10p,10R,11d,11f,11j,12i,12F,12,18,20,21i,24i,23,27k,31k,47k,51k,18p|
+|keyExtraList=1,5g,6,6s,7p,8i,9j,9A,9B,9d,9g,9t,9v,10,10p,10R,11d,11f,12i,12F,12,18,20,21i,24i,23,27k,31k,47k,51k,18p|
 
 |-= 1key =-|
 |chara1=space|color1=2|shuffle1=0|stepRtn1=onigiri|div1=1|pos1=0|keyCtrl1=32/0|
@@ -195,19 +195,6 @@ leftdia,space,sleft,sup,left,down,up,rightdia,right,sdown,sright
 |scroll11f=Cross::1,1,1,1,-1,-1,-1,1,1,1,1/Split::1,1,1,1,1,-1,-1,-1,-1,-1,-1/Alternate::1,-1,1,-1,1,-1,1,-1,1,-1,1$11f_0$11_0$11i_0$11d_0|
 |assist11f=$$$$11d_0|
 |minWidth11f=750|
-
-|-= 11jkey =-|
-|chara11j=gor,left,down,up,right,space,sleft,sdown,sup,sright,siyo|
-|color11j=2,0,0,0,0,2,3,3,3,3,2|
-|shuffle11j=0,1,1,1,1,2,3,3,3,3,4|
-|stepRtn11j=giko,0,-90,90,180,onigiri,0,-90,90,180,iyo|
-|div11j=11|
-|pos11j=0,1,2,3,4,5,6,7,8,9,10|
-|keyCtrl11j=9/0,83/0,68/0,69/82,70/0,32/0,74/0,75/0,73/79,76/0,13/0|
-|blank11j=9A_0|
-|scroll11j=Cross::1,1,1,-1,-1,-1,-1,-1,1,1,1/Split::1,1,1,1,1,-1,-1,-1,-1,-1,-1/Alternate::1,-1,1,-1,1,-1,1,-1,1,-1,1/AA-Split::1,-1,-1,-1,-1,1,-1,-1,-1,-1,1|
-|assist11j=AA::1,0,0,0,0,1,0,0,0,0,1|
-|minWidth11j=750|
 
 |-= 12ikey =-|
 |chara12i=oni,left,leftdia,down,sleft,sdown,sup,sright,space,up,rightdia,right$12i_0$12_0$12_1$12_0$12_1$12_2$12_3|
